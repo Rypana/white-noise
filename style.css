@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.bonfire-btn {
+     outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    top: 500px;
+    left: 319px;
+     transition: filter .4s;
+    cursor: pointer;
+}
+
+.bonfire-btn:hover{
+    filter: brightness(70%);
+}
+
+
+.rain-btn {
+     outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    top: 500px;
+    left: 647px;
+      transition: filter .4s;
+    cursor: pointer;
+}
+
+.rain-btn:hover{
+    filter: brightness(70%);
+}
+
+
+.sea-btn {
+     outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    top: 500px;
+    left: 975px;
+      transition: filter .4s;
+    cursor: pointer;
+}
+
+.sea-btn:hover{
+    filter: brightness(70%);
+}
+
+
+.bird-btn {
+     outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    top: 500px;
+    left: 1303px;
+      transition: filter .4s;
+    cursor: pointer;
+}
+
+.bird-btn:hover{
+    filter: brightness(70%);
+}
+
+.volume-control{
+    position: absolute;
+    left: 320px;
+    top: 400px;
+}
+
+h1{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    font-size: 80pt;
+    color: white;
+}
+
+.cl {
+    position: absolute;
+    top: 500px;
+    right: 1663px;
+
+}
+
+.clo {
+    position: absolute;
+    top: 200px;
+    left: 1663px;
+
+}
+
+
+.night-theme-btn {
+    position: absolute;
+    right: 320px;
+    top: 100px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: none;
+    outline: none;
+    transition: filter .4s;
+    cursor: pointer;
+}
+
+.night-theme-btn:hover{
+    filter: brightness(70%);
+}
+
+
+body {
+  background-image: linear-gradient(to bottom, #0D9DDA, #E8E8E8);
+  height: 100vh;
+  transition: background-image .4s;
+}
+
+body.night-theme {
+  background-image: linear-gradient(to bottom, #002636, #8D3C2D);
+  height: 100vh;
+  transition: background-image .4s;
+}
